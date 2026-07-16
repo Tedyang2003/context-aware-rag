@@ -1,0 +1,24 @@
+{
+  "name": "saic-context-aware-rag",
+  "version": "1.0.0",
+  "description": "LM Studio prompt-preprocessor plugin that dynamically injects or retrieves document context (with OCR fallback for scanned PDFs) based on the model's available context window.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lms dev",
+    "push": "lms push",
+    "install-plugin": "lms dev --install -y && node scripts/fix-install-assets.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lmstudio/sdk": "1.4.0",
+    "jszip": "^3.10.1",
+    "mupdf": "^1.28.0",
+    "tesseract.js": "^7.0.0",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "@types/tesseract.js": "^0.0.2"
+  }
+}

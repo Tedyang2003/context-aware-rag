@@ -1,0 +1,7 @@
+{
+  "type": "plugin",
+  "runner": "node",
+  "owner": "saic",
+  "name": "context-aware-rag",
+  "revision": 3
+}
